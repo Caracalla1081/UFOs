@@ -9,7 +9,7 @@ function buildTable(data) {
 }
 
 // Next, loop through each object in the data and append a row and cells for each value in the row
-data.foreach((dataRow) => {
+data.forEach((dataRow) => {
     //Append a row to the table body
     let row = tbody.append("tr");
 

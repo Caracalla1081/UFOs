@@ -7,6 +7,7 @@ Having been given a javascript containing data such as countries, states, and ty
 ## Webpage Operation Instructions
 ### Selecting the UFO Sigting Text
 - Enter the date of the sighting you are looking for in the date format of d/mm/yyy
-![Enter text in City Filter](https://github.com/Caracalla1081/UFOs/blob/f510ebe1f0bcac2e7ceb8b11373cf0d37a3467a3/Images/Enter%20City%20Filter.png)
+![Enter text in City Filter]
+(https://github.com/Caracalla1081/UFOs/blob/f510ebe1f0bcac2e7ceb8b11373cf0d37a3467a3/Images/Enter%20City%20Filter.png)
 
 ## Summary

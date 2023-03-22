@@ -32,16 +32,21 @@ function updateFilters() {
 
 
     // 4a. Save the element that was changed as a variable.
-        let UFOelement1 = d3.select(this)
+        let ufoELEMENT1 = d3.select(this)
     // 4b. Save the value that was changed as a variable.
-        let UFOvalue1 = UFOelement1.property("value")
+        let ufoVALUE1 = ufoELEMENT1.property("value")
+        console.log(ufoVALUE1);
     // 4c. Save the id of the filter that was changed as a variable.
-        let UFOid1 = UFOelement1.attr("id")
-  
+        let ufoID1 = ufoELEMENT1.attr("id")
+        console.log(ufoID1);
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
- 
-  
+        if (ufoVALUE1 !== "") {
+          filteredUFO[ufoID1] = ufoVALUE1;
+        }
+        else {
+          delete filteredUFO[ufoID1];
+        }
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
   
@@ -51,18 +56,24 @@ function updateFilters() {
   function filterTable() {
   
     // 8. Set the filtered data to the tableData.
-    
+      let filteredUFOdata = tableData.filter((obj) => {;
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    
+      for(ufoID1 in filteredUFO) {
+          if(obj[ufoID1] !== filteredUFO[ufoID1]) {
+            return false;
+          }
+      }
+      return true;
+    });
   
     // 10. Finally, rebuild the table using the filtered data
-    
+        buildTable(filteredUFOdata);
   }
   
   // 2. Attach an event to listen for changes to each filter
-  
+    d3.selectAll("input").on("change", updateFilters);
   
   // Build the table when the page loads
   buildTable(tableData);

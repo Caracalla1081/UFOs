@@ -7,7 +7,19 @@ Having been given a javascript containing data such as countries, states, and ty
 ## Webpage Operation Instructions
 ### Selecting the UFO Sigting Text
 - Enter the date of the sighting you are looking for in the date format of d/mm/yyy
-![Enter text in City Filter]
-(https://github.com/Caracalla1081/UFOs/blob/f510ebe1f0bcac2e7ceb8b11373cf0d37a3467a3/Images/Enter%20City%20Filter.png)
+![Enter Text in Date Filter](https://github.com/Caracalla1081/UFOs/blob/313f4a51cba12c4556a66f4623feae2854f46afa/Images/Enter%20Date%20Filter.png)
+
+- Enter the city of the sighting you are looking for in all lowercase format
+![Enter Text in City Filter](https://github.com/Caracalla1081/UFOs/blob/313f4a51cba12c4556a66f4623feae2854f46afa/Images/Enter%20City%20Filter.png)
+
+- Enter the state of the sighting you are looking for in all lowercase and two state abbreviation format
+![Enter Text in State Filter](https://github.com/Caracalla1081/UFOs/blob/313f4a51cba12c4556a66f4623feae2854f46afa/Images/Enter%20State%20Filter.png)
+
+- Enter the country of the sighting you are looking for in all lowercase and two country abbreviation format
+![Enter the Text in Country Filter](https://github.com/Caracalla1081/UFOs/blob/313f4a51cba12c4556a66f4623feae2854f46afa/Images/Enter%20Country%20Filter.png)
+
+- Enter the shape of the sighting you are looking for in all lowercase format
+![Enter the Text in Shape Filter](https://github.com/Caracalla1081/UFOs/blob/313f4a51cba12c4556a66f4623feae2854f46afa/Images/Enter%20Shape%20Filter.png)
+
 
 ## Summary

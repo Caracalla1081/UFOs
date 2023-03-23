@@ -28,8 +28,8 @@ One such drawback is that the parameters about what can be entered into the new 
 
 ### Recommendations
 - I would recommend building off of the drawback listed above and add into the for loop the "else" that returns an error message or alert that lets the user know that the text or datetime they entered is not valid, whether it because it does not exist, or because the text was not in all lowercase. This is particulary true of the "shape" field, as there is now clear understanding of what shapes are included in the data, thus the user could type in "semi-circle" and have no idea if it is valid or not.
-- - A dropdwon list for some of the fields, specifically "shape" would be useful.
-- - More flexibility in the way text is entered would also be useful. A user should be able to enter city, state, or country text starting with a capital letter.
+  - A dropdwon list for some of the fields, specifically "shape" would be useful.
+  - More flexibility in the way text is entered would also be useful. A user should be able to enter city, state, or country text starting with a capital letter.
 
 - I would recommend adding a clear filters button at the bottom of the filters.
-- - Currently a user has to individually clear each field to reset them. This is annoying and tiresome if a user is actually using the table to look up multiple different filter criteria.
+  - Currently a user has to individually clear each field to reset them. This is annoying and tiresome if a user is actually using the table to look up multiple different filter criteria.
